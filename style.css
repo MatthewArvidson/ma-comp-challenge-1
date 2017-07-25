@@ -1,0 +1,193 @@
+.header {
+  display: inline-flex;
+  width: 100%;
+  background-image: url(./images/snow-panorama.jpg);
+  flex-direction: row;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header-left {
+  flex-direction: row;
+  display: inline-flex;
+  height: 100%;
+  width: 60%;
+  padding-top: 30px;
+}
+.header-right {
+  display: flex;
+  height: 100%;
+  width: 40%;
+  position: relative;
+}
+.admin {
+  margin-left: 60px;
+  height: 10px;
+  width: 10px;
+  position: absolute;
+    right: 80px;
+    top: 20px;
+}
+h2 {
+  font-size: 40px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.win {
+  align-self: flex-end;
+  display: flex;
+  position: absolute;
+  top: 75px;
+  left: 620px;
+}
+.ski-logo {
+  height: 40px;
+  width: 20px;
+}
+.goggles {
+  height: 35px;
+  width: 35px;
+}
+.list {
+  padding-top: 7px;
+  height: 15px;
+  width: 15px;
+}
+.skier {
+  height: 15px;
+  width: 15px;
+}
+.skier-head {
+  padding-top: 7px;
+  height: 15px;
+  width: 15px;
+}
+.arrow {
+  height: 15px;
+  width: 15px;
+}
+.card-image {
+  width: 100%;
+  height: 100vh;
+}
+h1 {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  display: inline-flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 25px;
+}
+
+.share-image {
+  padding-top: 7px;
+  height: 15px;
+  width: 15px;
+}
+.top-left-text {
+  font-size: 25px;
+  margin: 0;
+}
+.left-side {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  width: 100%;
+  margin-bottom: 30px;
+  margin-top: 70px;
+  color: white;
+}
+li {
+  display: flex;
+  width: 20%;
+}
+.right-side {
+  display: flex;
+  flex-direction: column;
+}
+.main {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: 800px;
+  background-image: url(./images/snow-field.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tiles {
+  border: 2px solid white;
+  border-width: medium;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  height: 390px;
+  width: 280px;
+  margin: 10px;
+  box-shadow: 5px 3px 3px black;
+  flex-grow: 1;
+  border: 0;
+}
+
+.shane {
+  background-image: url(./images/shane.jpg);
+}
+
+.candide {
+  background-image: url(./images/candide.jpg);
+}
+
+.seth {
+  background-image: url(./images/seth.jpg);
+}
+
+.glen {
+  background-image: url(./images/glen.jpg);
+}
+
+.tanner {
+  background-image: url(./images/tanner.jpg);
+}
+
+.doug {
+  background-image: url(./images/doug.jpg);
+}
+
+.jp {
+  background-image: url(./images/jp.jpg);
+}
+
+.mike {
+  background-image: url(./images/mike.jpg);
+}
+
+.share-cards {
+  height: 10px;
+  width: 10px;
+}
+
+.card-info {
+height: 66.66%;
+width: 100%;
+background-color: #97C0E1;
+}
+
+.card-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+@media (max-width: 850px) {
+
+}
+@media (max-width 600px) {
+
+}
+@media (max-width 450px) {
+  
+}
